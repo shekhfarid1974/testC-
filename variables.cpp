@@ -32,7 +32,7 @@ int main(){
     return 0;
 
 }
-*/
+
 
 //string Variable
 #include <iostream>
@@ -43,4 +43,35 @@ int main(){
     std::cout << "message: " << message << std::endl;
     return 0;
 
+}
+
+//Boolean Variable
+
+#include <iostream>
+using namespace std;
+int main(){
+
+    bool IsSunny = true;
+
+    if(IsSunny){
+        cout << "It is Sunny Day!" << endl;
+    }else{
+            cout << "it is not sunny day at all!" << endl;
+        }
+    return 0;
+}
+*/
+
+#include <iostream>
+using namespace std;
+int main (){
+    bool isSunny;
+    cout << "Is It Sunny Today? (Enter 1 For yes or 0 For No):";
+    cin >> isSunny;
+    if(isSunny){
+        cout << "it is sunny day!" << endl;
+    }else{
+        cout << "it is not sunny day!" << endl;
+    }
+return 0;
 }
